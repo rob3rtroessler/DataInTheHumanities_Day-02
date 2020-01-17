@@ -1,0 +1,181 @@
+/*
+    GRID & LAYOUT
+*/
+
+html,
+body,
+.maxHeight {
+    height: 100%;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-size: 100%;
+}
+
+#content {
+    background: rgba(255, 255, 255, 0.76);
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+
+/*
+    NAVBAR
+*/
+
+#myNavbar {
+    background: rgba(137,171,184,0.72);
+    border-bottom: thin solid grey;
+    width: 100%;
+}
+
+.nav-item.borderRight{
+    border-right: thin solid grey;
+    text-decoration: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #606060;
+}
+
+.nav-item a:hover{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+}
+
+
+/*
+    LEVEL #1 CSS - All galleries
+*/
+
+.all-galleries-item {
+    border-bottom: thin solid lightgray;
+    border-left: thin solid lightgray;
+    border-right: thin solid lightgrey;
+}
+
+.all-galleries-item:nth-of-type(odd) {
+    background: rgba(137,171,184,0.72)
+}
+
+.gallery-row.odd:hover {
+    cursor: pointer;
+    background: rgba(137,171,184,0.72)
+}
+.gallery-row.even:hover {
+    cursor: pointer;
+    background: rgba(137,171,184,0.72)
+}
+
+
+/*
+    LEVEL #2
+*/
+
+.object-row.odd:hover {
+    cursor: pointer;
+    background: rgba(142, 178, 191, 0.47)
+}
+
+
+.object-row:hover {
+    cursor: pointer;
+    background: rgba(142, 178, 191, 0.47)
+}
+
+.gallery-list-item {
+    background: rgba(137,171,184,0.72);
+    border: thin solid lightgrey;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 3px;
+}
+
+.gallery-list-img {
+    height: 100px;
+    max-height: 100px;
+}
+
+
+/*
+FONTS
+*/
+
+h1.title {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+}
+
+
+/*
+    IMAGES
+*/
+
+.gallery-image {
+    width: 80px;
+}
+
+#objectImage {
+    width: 100%;
+    border: 1px solid grey;
+}
+
+
+/*
+    BUTTONS
+*/
+
+.btn-primary {
+    background-color: rgba(137,171,184,0.72)  !important;
+    color: black;
+    width: 100%; }
+.btn-primary:hover {
+    background-color: rgba(137,171,184,0.72);
+    color: #fff; }
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+.btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    background-color: rgba(137,171,184,0.72); }
+.btn-primary.dropdown-toggle {
+    background-color: rgba(137,171,184,0.72) !important; }
+.btn-primary.dropdown-toggle:hover, .btn-primary.dropdown-toggle:focus {
+    background-color: rgba(137,171,184,0.72) !important; }
+.btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    background-color: rgba(137,171,184,0.72) !important; }
+.btn-primary:not([disabled]):not(.disabled):active:focus, .btn-primary:not([disabled]):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.btn-secondary {
+    background-color: rgba(137,171,184,0.72) !important;
+    color: #fff; }
+.btn-secondary:hover {
+    background-color: rgba(137,171,184,0.72);
+    color: #fff; }
+.btn-secondary:focus, .btn-secondary.focus {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+.btn-secondary:focus, .btn-secondary:active, .btn-secondary.active {
+    background-color: rgba(137,171,184,0.92); }
+.btn-secondary.dropdown-toggle {
+    background-color: rgba(137,171,184,0.72) !important; }
+.btn-secondary.dropdown-toggle:hover, .btn-secondary.dropdown-toggle:focus {
+    background-color: rgba(137,171,184,0.72) !important; }
+.btn-secondary:not([disabled]):not(.disabled):active, .btn-secondary:not([disabled]):not(.disabled).active,
+.show > .btn-secondary.dropdown-toggle {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    background-color: rgba(137,171,184,0.92) !important; }
+.btn-secondary:not([disabled]):not(.disabled):active:focus, .btn-secondary:not([disabled]):not(.disabled).active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+
